@@ -3,9 +3,10 @@ using UnityEngine;
 public class RotatingComponent : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private Vector3 rotation;
+    private float value;
     private void Update()
     {
-        transform.Rotate(rotation * (speed * Time.deltaTime));
+        value += speed * Time.deltaTime;
+        transform.SetEulerAnglesY(value);
     }
 }

@@ -28,6 +28,13 @@ public static class Ex
         t.position = pos;
     }
 
+    public static void SetEulerAnglesY(this Transform t, float value)
+    {
+        var rot = t.eulerAngles;
+        rot.y = value;
+        t.eulerAngles = rot;
+    }
+
     #endregion
 
     #region Image
