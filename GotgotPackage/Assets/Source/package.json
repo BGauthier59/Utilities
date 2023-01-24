@@ -1,13 +1,15 @@
 {
-  "NAME": "COM.GBAUDINET.UTILITIES",
-  "VERSION": "0.0.22",
-  "DISLAYNAME": "UTILITIES",
-  "DESCRIPTION": "COLLECTION OF UTILITY FUNCTIONS TO BE USED IN UNITY.",
-  "UNITY": "2021.3",
-  "AUTHOR": "GBAUDINET",
-  "KEYWORD": [ "UTILITIES" ],
-  "DEPENDENCIES": {
-    "COM.UNITY.ADDRESSABLES": "1.19.19",
-    "COM.UNITY.COLLECTIONS": "1.2.4"
+  "name": "com.gbaudinet.utilities",
+  "version": "0.0.22",
+  "displayName": "Utilities",
+  "description": "Collection of utility functions to be used in Unity.",
+  "unity": "2021.3",
+  "author": "Gbaudinet",
+  "keywords": [
+    "Utilities"
+  ],
+  "dependencies": {
+    "com.unity.addressables": "1.19.19",
+    "com.unity.collections": "1.2.4"
   }
 }
